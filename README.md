@@ -4,4 +4,4 @@
 
 Features
 
-* `Bold` characters support example *foo* would show as `*foo*`
+* ####`Bold` characters support example *foo* would show as `*foo*`
