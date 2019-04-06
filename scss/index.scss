@@ -1,0 +1,67 @@
+@import "reset";
+
+@mixin flexbox() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 20px;
+  padding: 20px;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 100vh;
+  margin: 20px;
+}
+
+#html-container {
+  margin: 2rem;
+  width: 97.5%;
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  #html-area {
+    width: 100%;
+    border-radius: 3px;
+    height: 100vh;
+    text-align: left;
+    padding: 2rem;
+    font-size: 1.6rem;
+    &::placeholder {
+      color: #333;
+    }
+  }
+}
+
+#markdown-container {
+  width: 97.5%;
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  #markdown-area {
+    width: 100%;
+    border-radius: 3px;
+    height: 100vh;
+    padding: 2rem;
+    font-size: 1.6rem;
+    border: 1px solid #000;
+    &::placeholder {
+      color: #333;
+    }
+  }
+}
+
+
+.bold {
+  font-weight: bold;
+}
