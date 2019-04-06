@@ -2,6 +2,6 @@
 
 [Netlify Link of Site so far...](https://jolly-wiles-0f6acf.netlify.com/)
 
-##Features
+## Features
 
-###* `Bold` characters support example *foo* would show as `*foo*`
+* ### `Bold` characters support example *foo* would show as `*foo*`
